@@ -6,4 +6,38 @@ a {
   text-decoration: none;
   color: black;
 }
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+header .navigator .sandwich-menu {
+  float: right;
+  margin-right: 1em;
+  width: 7%;
+}
+
+header .navigator span {
+  font-size: 25px;
+  margin-left: 2em;
+  margin-top: 5em;
+  color: #686868;
+}
+
+header .navigator ul {
+  display: none;
+}
+
+.hero-img {
+  width: 140vh;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
 /*# sourceMappingURL=index.css.map */

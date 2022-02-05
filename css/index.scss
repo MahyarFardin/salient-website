@@ -5,3 +5,36 @@ a{
     text-decoration: none;
     color: black;
 }
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    .navigator{
+        .sandwich-menu{
+            float: right;
+            margin-right: 1em;
+            width: 7%;
+        }
+        span{
+            font-size: 25px;
+            margin-left: 2em;
+            margin-top: 5em;
+            color: #686868;
+        }
+        ul{
+            display: none;
+        }
+    }
+}
+
+.hero-img{
+    width: 140vh;
+    filter: brightness(50%);
+
+}
+  

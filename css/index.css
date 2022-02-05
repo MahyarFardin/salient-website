@@ -21,7 +21,7 @@ header {
 header .navigator .sandwich-menu {
   float: right;
   margin-right: 1em;
-  width: 7%;
+  width: 2em;
 }
 
 header .navigator span {
@@ -35,9 +35,21 @@ header .navigator ul {
   display: none;
 }
 
-.hero-img {
-  width: 140vh;
-  -webkit-filter: brightness(50%);
-          filter: brightness(50%);
+.Hero {
+  padding-bottom: 2em;
+  background: url("../util/images/hero-bg/landing.jpg");
+  background-size: cover;
+  padding-bottom: 70vh;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.hero-text li {
+  font-weight: normal;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

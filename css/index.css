@@ -9,7 +9,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   overflow-x: hidden;
 }
 
@@ -36,20 +36,79 @@ header .navigator ul {
 }
 
 .Hero {
+  position: relative;
   padding-bottom: 2em;
-  background: url("../util/images/hero-bg/landing.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../util/images/hero-bg/landing.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../util/images/hero-bg/landing.jpg") no-repeat center center fixed;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  padding-bottom: 70vh;
+  background-size: cover;
+  padding-bottom: 30vh;
   margin-bottom: 0;
 }
 
 .hero-text {
   text-align: center;
-  padding-top: 20%;
-}
-
-.hero-text li {
+  padding-top: 30%;
   font-weight: normal;
   color: white;
+}
+
+.hero-text .head-hero {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.hero-text hr {
+  padding-left: 5em;
+  border: 2px solid white;
+}
+
+.hero-text .empty {
+  font-style: oblique;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.readme {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  margin-top: 1.5em;
+  display: inline-block;
+  padding: 1em 2em;
+  border: 1px solid white;
+}
+
+.readme:hover {
+  text-decoration: underline;
+}
+
+.information-about-us {
+  margin-top: 7em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.info-head h1 {
+  letter-spacing: .1em;
+  margin-bottom: 1.7em;
+}
+
+.desc-info {
+  font-size: 30px;
+  color: #353535;
+  font-family: "Raleway";
+  font-weight: bold;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 /*# sourceMappingURL=index.css.map */

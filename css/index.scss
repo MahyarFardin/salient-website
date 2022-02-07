@@ -95,6 +95,7 @@ h1{
 }
 
 .info-head h1{
+    font-size: 20px;
     letter-spacing: .1em;
     margin-bottom: 1.7em;
 }
@@ -103,11 +104,149 @@ h1{
     font-size: 30px;
     color: #353535;
     font-family: "Raleway";
-    font-weight: bold;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.info-head p{
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    color: darkgray;
+}
+
+.information-sections h1{
+    margin-top: 1em;
+    font-size: 17px;
+    color: rgb(44, 44, 44);
+}
+.information-sections p{
+    color: gray;
+    padding-left: .7em;
+    padding-right: .7em;
+    font-size: 14px;
+    letter-spacing: .05em;
+}
+
+.information-sections{
+    margin-top: 7em;
+    margin-bottom: 20em;
 }
 
 
+.what-do-head{
+    text-align: center;
+}
 
-  
+.what-do-head h1{
+    font-family: "Raleway";
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: .05em;
+}
+
+.what-do-head p{
+    padding-top: 1.5em;
+    padding-bottom: 7em;
+    font-size: 15px;
+    padding-left: 4em;
+    padding-right: 4em;
+    color: gray;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
+
+
+.what-do-list p{
+    color: gray;
+    font-size: 15px;
+    letter-spacing: .1em;
+}
+
+.what-do-list h1{
+    color: black;
+    font-size: 17px;
+    letter-spacing: .1em;
+}
+
+#woman{
+    width: 100%;
+}
+
+#what-do-we-do{
+    margin-bottom: 10em;
+}
+
+#team{
+    text-align: center;
+}
+
+.team-head h1{
+    font-family: "Raleway";
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-bottom: 2em;
+}
+
+.team-head p{
+    font-size: 15px;
+    color: gray;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    letter-spacing: .1em;
+    line-height: 1.7em;
+    margin-bottom: 4em;
+}
+
+.team-pic {
+    display: block;
+    margin-left: -.5em;
+    margin-bottom: 2em;
+    width: 97%;
+}
+
+.our-skills{
+    text-align: left;
+}
+.our-skills h1{
+    font-weight: bold;
+}
+.our-skills p{
+    font-size:15px ;
+    color: gray;
+    line-height: 1.5em;
+}
+
+#contact h1{
+    font-weight: bold;
+}
+
+#contact{
+    text-align: center;
+    padding-top: 5em;
+}
+
+.text {
+    text-align: left;
+    padding-right: 55%;
+    margin-left:1em;
+    padding: auto 10em;
+    font-family: "Raleway";
+    padding-bottom: .5em;
+    padding-top: 1em;
+    border: none;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    display: block;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#submit{
+    color: white;
+    display: inline;
+    padding: .7em 12em;
+    background-color: rgb(39, 39, 39);
+    border-style: none;
+}

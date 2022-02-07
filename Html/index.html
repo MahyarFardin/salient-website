@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <title>First page</title>
 </head>
@@ -48,33 +48,37 @@
                 <h1>Some information about us</h1>
                 <p class="desc-info">We’re small branding &amp; digital studio<p>
                 <hr style="width: 20%; height: 1px; margin-top: 3em; margin-bottom: 3.5em;">
-                <p>Cras porta dolor ut velit imperdiet, quis sodales tellus facilisis. Vestibulum magna turpis, tincidun blandit semper lorem. Mauris nodesterin feugiat neque, a aliquet ligula. Sed non felis tincidunt, facilisis felis vitae, mollis est. Nulla sapien dui, feugiat sed velit a, egestas porta magna.</p>
+                <p style="line-height: 1.5em; font-size: 16px; letter-spacing: .1em;">Cras porta dolor ut velit imperdiet, quis sodales tellus facilisis. Vestibulum magna turpis, tincidun blandit semper lorem. Mauris nodesterin feugiat neque, a aliquet ligula. Sed non felis tincidunt, facilisis felis vitae, mollis est. Nulla sapien dui, feugiat sed velit a, egestas porta magna.</p>
             </div>
 
-            <div>
-                <h1>DESIGNS &amp; INTERFACES</h1>
-                <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
-            </div>
-            <div>
-                <h1>Branding</h1>
-                <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
-            </div>
-            <div>
-                <h1>Dedicated support</h1>
-                <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
+            <div class="information-sections">
+                <div>
+                    <img src="../util/images/vectors/Annotation 2022-02-07 185533.jpg" alt="">
+                    <h1>DESIGNS &amp; INTERFACES</h1>
+                    <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
+                </div>
+                <div>
+                    <img src="../util/images/vectors/ajhf.jpg" alt="">
+                    <h1>Branding</h1>
+                    <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
+                </div>
+                <div>
+                    <img src="../util/images/vectors/a'lkfj.jpg" alt="">
+                    <h1>Dedicated support</h1>
+                    <p>Mauris eros tortor, tristique cursus porttitor et, luctus sed urna. Quisque id libero risus. Aliquam accumsan erat id sem placerat tempus.</p>
+                </div>
             </div>
         </section>
     </div>
 
     <div>
-        <section>
-            <div>
-                <h1>What do we do?</h1>
-                <hr>
+        <section id="what-do-we-do">
+            <div class="what-do-head">
+                <h1>WHAT WE DO?</h1>
                 <p>Seamlessly restore client-focused potentialities rather than functional strategic theme areas.</p>
             </div>
 
-            <div>
+            <div class="what-do-list">
                 <ul>
                     <li>
                         <h1>MOBILE APP</h1>
@@ -98,14 +102,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
-    </div>
     
-    <div>
-        <img src="../util/images/temp/woman.jpg" alt="this is an image of woman">
-
-        <section>
-            <div>
+        <img id="woman" src="../util/images/temp/woman.jpg" alt="this is an image of woman">
+            <div class="what-do-list">
                 <ul>
                     <li>
                         <h1>EASY CUSTOMIZATION</h1>
@@ -132,33 +131,32 @@
         </section>
     </div>
 
-    <div>
+    <div id="team">
         <section>
-            <div>
+            <div class="team-head">
                 <h1>OUR AWESOME TEAM</h1>
                 <p>Seamlessly restore client-focused potentialities rather than functional strategic theme areas. Credibly e-enable value-added portals with clicks-and-mortar initiatives.</p>
             </div>
-            <div>
+            <div >
                 <ul>
-                    <li><img src="../util/images/team/m1.jpg" alt=""></li>
-                    <li><img src="../util/images/team/m2.jpg" alt=""></li>
-                    <li><img src="../util/images/team/m3.jpg" alt=""></li>
+                    <li><img class="team-pic" src="../util/images/team/m1.jpg" alt=""></li>
+                    <li><img class="team-pic" src="../util/images/team/m2.jpg" alt=""></li>
+                    <li><img class="team-pic" src="../util/images/team/m3.jpg" alt=""></li>
                 </ul>
             </div>
-            <div>
+            <div class="our-skills">
                 <h1>OUR TEAM SKILLS</h1>
                 <p>Sit ad etiam dissentias, viderer intellegebat usu et, per aliquam delectus ut. In inermis suavitate tincidunt quo, habeo lorem quis nulla eget, dictum pretium magna. Praesent id metus mattis tellus consectetur posuere. Aenean vel enim ut massa luctus efficitur a nec magna.</p>
             </div>
         </section>
     </div>
 
-    <div>
-        <section>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea name="text-area" id="message" cols="30" rows="10" placeholder="Your Text"></textarea>
-            <input type="submit" name="submit" id="submit" value="Send message">
-        </section>
+    <div id="contact">
+        <h1>CONTACT</h1>
+        <input class="text" type="text" placeholder="Name">
+        <input class="text" type="email" placeholder="Email">
+        <textarea class="text" name="text-area" id="message" cols="15" rows="10" placeholder="Your Text"></textarea>
+        <input type="submit" name="submit" id="submit" value="Send message">
     </div>
 
 </body>

@@ -250,3 +250,43 @@ input:focus, textarea:focus, select:focus{
     background-color: rgb(39, 39, 39);
     border-style: none;
 }
+
+@media screen and(min-width:700px) {
+    .sandwich-menu{
+        display: none;
+    }
+    .navigator{
+        padding-bottom: 1em;
+    }
+    .navigator nav{
+        display: inline;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+
+        ul{
+            display: flex;
+            margin-top: -.7em;
+            margin-bottom: -.2em;
+            padding-left: 40em;
+        }
+
+        a{
+            color: black;
+            font-size: 1em;
+            padding: 3em 1em;
+        }
+
+        // make the current page orange
+
+
+        .navigator span{
+            padding-left: 7em;
+        }
+
+
+    }
+}

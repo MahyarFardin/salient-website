@@ -256,7 +256,7 @@ input:focus, textarea:focus, select:focus {
   border-style: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .sandwich-menu {
     display: none;
   }
@@ -280,15 +280,46 @@ input:focus, textarea:focus, select:focus {
     display: flex;
     margin-top: -.7em;
     margin-bottom: -.2em;
-    padding-left: 40em;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    padding-right: 5em;
   }
   .navigator nav a {
     color: black;
     font-size: 1em;
     padding: 3em 1em;
   }
-  .navigator nav .navigator span {
-    padding-left: 7em;
+  .info-head > .about-us-big-info {
+    padding: 0em 20em;
+  }
+  .information-sections {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 7em;
+  }
+  .information-sections li {
+    padding-right: 3em;
+  }
+  #what-do-we-do {
+    margin-top: 7em;
+    display: inline-block;
+  }
+  #what-do-we-do .what-do-list-right {
+    float: left;
+  }
+  #what-do-we-do img {
+    width: 30%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #what-do-we-do .what-do-list-left {
+    float: right;
   }
 }
 /*# sourceMappingURL=index.css.map */

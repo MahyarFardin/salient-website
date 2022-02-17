@@ -251,7 +251,7 @@ input:focus, textarea:focus, select:focus{
     border-style: none;
 }
 
-@media screen and(min-width:700px) {
+@media screen and(min-width:800px) {
     .sandwich-menu{
         display: none;
     }
@@ -271,7 +271,8 @@ input:focus, textarea:focus, select:focus{
             display: flex;
             margin-top: -.7em;
             margin-bottom: -.2em;
-            padding-left: 40em;
+            justify-content: right;
+            padding-right: 5em;
         }
 
         a{
@@ -281,12 +282,38 @@ input:focus, textarea:focus, select:focus{
         }
 
         // make the current page orange
+    }
 
+    .info-head > .about-us-big-info{
+        padding: 0em 20em;
+    }
 
-        .navigator span{
-            padding-left: 7em;
+    .information-sections{
+        justify-content: center;
+        display: flex;
+        li{
+            padding-right: 3em;
         }
 
+        margin-bottom: 7em;
+    }
+
+    #what-do-we-do{
+        margin-top: 7em;
+        display: inline-block;
+
+        .what-do-list-right{
+            float: left;
+        }
+        img{
+            width: 30%;
+            justify-content: center;
+
+        }
+
+        .what-do-list-left{
+            float: right;
+        }
 
     }
 }

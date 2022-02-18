@@ -370,5 +370,16 @@ input:focus, textarea:focus, select:focus{
         padding: 2em 7em;
         flex-direction: column;
         width: 40%;
+        height: 1.5em;
     }
+
+     
+
+    progress::-moz-progress-bar {
+        background: black;
+    }
+    progress::-webkit-progress-value {
+        background: black;
+    }
+    
 }

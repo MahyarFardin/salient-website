@@ -327,16 +327,36 @@ input:focus, textarea:focus, select:focus{
 
     }
 
+    .our-skills{
+        margin-left: 6em;
+        text-align: left;
+        margin-top: 40em;
+    }
     .staff{
-        padding: 0 0;
-        margin: 0 0;
-        display: flex;
-        flex-direction: row;
-        img{
-            padding: 0 5em;
-            width: 30%;
-            float: right;
+        padding-right: 2em;
+    }
+    .staff img{
+        display: inline;
+        width: 30%;
+        padding-right: 2em;
+    }
+    .team-pic{
+        float: right;
+    }
+
+    #contact input{
+        margin-left: 17em;
+        justify-content: center;
+    }
+
+    #contact textarea{
+        margin-left: 14em;
+    }
+
+    #contact {
+        #submit{
+            margin-left: -.4em;
+            padding: 1em 30.5em;
         }
-        
     }
 }

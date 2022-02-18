@@ -359,4 +359,16 @@ input:focus, textarea:focus, select:focus{
             padding: 1em 30.5em;
         }
     }
+
+    .our-skills{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .skills-bar{
+        display: flex;
+        padding: 2em 7em;
+        flex-direction: column;
+        width: 40%;
+    }
 }

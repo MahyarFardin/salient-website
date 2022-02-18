@@ -359,5 +359,24 @@ input:focus, textarea:focus, select:focus {
     margin-left: -.4em;
     padding: 1em 30.5em;
   }
+  .our-skills {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .skills-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2em 7em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

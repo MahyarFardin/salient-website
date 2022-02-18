@@ -301,19 +301,42 @@ input:focus, textarea:focus, select:focus{
     #what-do-we-do{
         margin-top: 7em;
         display: inline-block;
+        padding-left: 2em;
+        padding-right: 5em;
 
         .what-do-list-right{
             float: left;
         }
         img{
-            width: 30%;
+            padding-left: 5em;
+            width: 45%;
             justify-content: center;
 
         }
-
         .what-do-list-left{
             float: right;
         }
 
+        .what-do-list-left , .what-do-list-right{
+            padding-top: 2em;
+        }
+
+        li{
+            padding-top: 2.5em;
+        }
+
+    }
+
+    .staff{
+        padding: 0 0;
+        margin: 0 0;
+        display: flex;
+        flex-direction: row;
+        img{
+            padding: 0 5em;
+            width: 30%;
+            float: right;
+        }
+        
     }
 }

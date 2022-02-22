@@ -5,9 +5,14 @@ a{
     text-decoration: none;
     color: black;
 }
+
+h1{
+    color: #353535;
+}
+
 body{
+    font-family: "Raleway";
     margin: 0;
-    font-family: sans-serif;
     overflow-x: hidden;
 }
 
@@ -72,7 +77,7 @@ header{
 }
 
 .readme{
-    font-family: 'Crimson Text', serif;
+    font-family: serif;
     font-weight: bold;
     margin-top: 1.5em;
     display: inline-block;
@@ -103,7 +108,6 @@ h1{
 .desc-info{
     font-size: 30px;
     color: #353535;
-    font-family: "Raleway";
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -138,7 +142,6 @@ h1{
 }
 
 .what-do-head h1{
-    font-family: "Raleway";
     font-weight: bolder;
     font-size: 27px;
     letter-spacing: .05em;
@@ -181,7 +184,6 @@ h1{
 }
 
 .team-head h1{
-    font-family: "Raleway";
     font-size: 23px;
     font-weight: bold;
     letter-spacing: .1em;
@@ -231,7 +233,6 @@ h1{
     padding-right: 55%;
     margin-left:1em;
     padding: auto 10em;
-    font-family: "Raleway";
     padding-bottom: .5em;
     padding-top: 1em;
     border: none;
@@ -335,10 +336,21 @@ input:focus, textarea:focus, select:focus{
     .staff{
         padding-right: 2em;
     }
+    ul li ul {
+        display: none;
+    }
     .staff img{
+        
+        border-radius: 5%;
         display: inline;
-        width: 30%;
+        width: 27%;
         padding-right: 2em;
+        justify-content: center;
+
+        margin-right: 2em;
+        &:hover{
+            width: 35%;
+        }
     }
     .team-pic{
         float: right;
@@ -350,13 +362,13 @@ input:focus, textarea:focus, select:focus{
     }
 
     #contact textarea{
-        margin-left: 14em;
+        margin-left: 17.5em;
     }
 
     #contact {
         #submit{
-            margin-left: -.4em;
-            padding: 1em 30.5em;
+            margin-left: -.7em;
+            padding: 1em 29em;
         }
     }
 

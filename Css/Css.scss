@@ -4,13 +4,19 @@ body {
   height: 100%;
   letter-spacing: 1.5px;
 }
+
+ul{
+  list-style: none;
+}
+
 .navbar-brand{
   font-size: 27px;
   text-transform: uppercase;
 }
 
-.navbar-nav > .active > .ms-auto{
-  color: orange;
+//Ask this from Danial
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
 }
 
 #home{
@@ -24,6 +30,3 @@ body {
   background-attachment: fixed;
   
 }
-
-
-

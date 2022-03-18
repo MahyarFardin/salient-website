@@ -14,32 +14,32 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="border-bottom: rgb(233, 134, 42) solid 1px;">
         <div class="container">
-            <a class="navbar-brand" href="#">Salient</a>
+            <a class="navbar-brand" style="color : rgb(233, 134, 42)" href="#">Salient</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav active ms-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -49,10 +49,10 @@
     <!-- hero section -->
     <section id="home">
         <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-20" style="padding-top: 12em; color: white;">
+            <div class="row">
+                <div class="col" style="padding-top: 12em; color: white;">
                     <h1 class="text-uppercase">Good Quality Code</h1>
-                    <hr style="padding: auto auto; height: 3px;">
+                    <hr style="padding: auto 3em; height: 3px;">
                     <h6>html & css & bootstrap</h6>
                     <button class="btn btn-outline-light">Read me</button>
                 </div>
@@ -76,7 +76,7 @@
         </div>
         <div class="container text-center" style="padding-bottom: 10em;">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="../util/images/vectors/Annotation 2022-02-07 185533.jpg" alt="">
                     <h6>DESIGNS &amp; INTERFACES</h6>
                     <p style="font-weight: lighter;">Mauris eros tortor, tristique cursus porttitor et, luctus sed urna.
@@ -84,7 +84,7 @@
                         Aliquam
                         accumsan erat id sem placerat tempus.</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="../util/images/vectors/ajhf.jpg" alt="">
                     <h6>Branding</h6>
                     <p style="font-weight: lighter;">Mauris eros tortor, tristique cursus porttitor et, luctus sed urna.
@@ -92,7 +92,7 @@
                         Aliquam
                         accumsan erat id sem placerat tempus.</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4">
                     <img src="../util/images/vectors/a'lkfj.jpg" alt="">
                     <h6>Dedicated support</h6>
                     <p style="font-weight: lighter;">Mauris eros tortor, tristique cursus porttitor et, luctus sed urna.
@@ -106,7 +106,8 @@
 
     <hr style="margin:auto auto; color: gray; opacity: 30%;">
 
-    <section class="container" style="padding-top: 10em;">
+    <!-- what we do -->
+    <section id="features" class="container text-left" style="padding-top: 10em;">
         <div class="text-center">
             <h6>WHAT WE DO?</h6>
             <p>Seamlessly restore client-focused potentialities rather than functional strategic <br> theme areas.
@@ -114,7 +115,7 @@
         </div>
 
         <div class="row">
-            <div class="col-4 nopadding">
+            <div class="col-lg-4 nopadding">
                 <ul>
                     <li>
                         <h6>MOBILE APP</h6>
@@ -139,9 +140,9 @@
                 </ul>
             </div>
 
-            <img class="col-8 nopadding" src="../util/images/temp/woman.jpg" alt="this is an image of woman">
+            <img class="col-lg-4 nopadding" src="../util/images/temp/woman.jpg" alt="this is an image of woman">
 
-            <div class="col-4 nopadding">
+            <div class="col-lg-4 nopadding">
                 <ul>
                     <li>
                         <h6>EASY CUSTOMIZATION</h6>
@@ -168,6 +169,7 @@
         </div>
     </section>
 
+    <!-- team -->
     <section style="padding-top: 10em;" class="container">
         <div id="team">
             <div class="col">
@@ -215,26 +217,66 @@
                 </div>
     </section>
 
+    <!-- contact -->
     <section class="container text-center">
         <div id="contact">
             <h1>CONTACT</h1>
-            <div class="input-group input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
-                <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-sm">
+            <div class="row">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Text</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-outline-dark">Send</button>
+                </div>
             </div>
-            <div class="input-group input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
-                <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Text</span>
-                <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="d-grid gap-2">
-                <button type="button" class="btn btn-outline-primary">Send</button>
+            <div class="row" style="padding-top:5em">
+                <div class="col">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-at" viewBox="0 0 16 16">
+                            <path
+                                d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z" />
+                        </svg>
+                        <p style="font-size: 30px;">Mahyarfardinfar@gmail.com</p>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                        </svg>
+                        <p style="font-size: 30px;">Silicon vally</p>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-phone" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg>
+                        <p style="font-size: 30px;">+01-123 456 789</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405688.61892598984!2d-121.76088720217639!3d37.40301850113227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2z2K_YsdmHINiz24zZhNuM2qnZiNmG2Iwg2qnYp9mE24zZgdix2YbbjNin2Iwg2KfbjNin2YTYp9iqINmF2KrYrdiv2Ycg2KLZhdix24zaqdin!5e0!3m2!1sfa!2s!4v1647635026676!5m2!1sfa!2s"
+                        width="100%" height="150%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -243,8 +285,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

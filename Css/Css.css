@@ -33,4 +33,12 @@ ul {
 #features {
   margin: auto auto;
 }
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=Css.css.map */

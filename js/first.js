@@ -7,6 +7,8 @@ const resume= document.querySelector(".resume");
 
 var last=home;
 
+console.log()
+
 home.addEventListener("click",() => {
     console.log("clicked");
     home.classList.add("active");

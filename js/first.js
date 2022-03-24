@@ -45,9 +45,3 @@ resume.addEventListener("click",() => {
     last.classList.remove("active");
     last=resume;
 });
-
-
-
-
-
-
